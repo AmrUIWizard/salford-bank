@@ -1,4 +1,3 @@
-import React from "react";
 import { styles } from "./styles";
 import { Link } from "react-router-dom";
 
@@ -12,7 +11,7 @@ const Home = () => {
         </h1>
         <Link to="/customers">
           <div className="mt-8 text-xl hover:text-[#dab355] w-fit">
-            Go To customers
+            Go To Customers
             <hr className="bg-[#dab355] h-[2px]" />
           </div>
         </Link>
