@@ -9,10 +9,10 @@ const Navbar = () => {
       <div className="shadow-lg">
         <nav className="max-w-7xl mx-auto">
           <div
-            className={`${styles.paddingX} w-full flex justify-between items-center py-5`}
+            className={`${styles.paddingX} w-full flex justify-between items-center py-5 max-sm:text-xs`}
           >
             <Link to="/">
-              <div className="flex items-center gap-5 cursor-pointer">
+              <div className="flex items-center gap-5 max-sm:gap-3 cursor-pointer">
                 <img
                   src={Logo}
                   alt="logo"

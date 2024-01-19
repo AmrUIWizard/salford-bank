@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="max-w-5xl mx-auto flex-1">
       <div className={`${styles.paddingX}`}>
-        <h1 className="font-bold text-7xl max-sm:text-5xl max-sm:mt-48 mt-64 ">
+        <h1 className="font-bold text-7xl max-sm:text-5xl max-sm:mt-36 mt-64 ">
           Empowering Your Financial Journey with <br />
           <span className="text-[#dab355]">Innovation and Security</span>
         </h1>
